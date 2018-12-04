@@ -1,0 +1,70 @@
+body{
+  margin: auto;
+  font-family: garamond;
+}
+img{
+  height:15px;
+  width: 15px;
+}
+.container{
+  display: flex;
+  flex-flow: row;
+
+}
+a{
+  text-decoration: none;
+}
+.sidebar{
+
+  flex-grow: 1;
+  background:#e2e1ea;
+  height: 100vh;
+  display: flex;
+  flex-flow:column;
+  color: black;
+}
+
+.side{
+  color: black;
+}
+button{
+  background-color: #33cc33;
+  color: white;
+  border-radius: 9px;
+  height: 5vh;
+  width: 15vh;
+}
+.dashboard{
+  display: flex;
+  flex-flow: row;
+  text-align: center;
+  flex-grow: 7;
+  height: 100vh;
+  justify-content: space-between;
+}
+.newUser, .signUp,.newjob, .login{
+  flex-grow: 7;
+  display: flex;
+  flex-flow: column;
+}
+
+.info{
+  border-radius: 5px;
+
+}
+.newjob{
+  flex-flow: column;
+}
+form{
+  justify-content: space-around;
+  align-items: baseline;
+
+}
+.header{
+  height: 20px;
+  background-color: #343148;
+  color: white;
+}
+#button1{
+  background-color: blue;
+}

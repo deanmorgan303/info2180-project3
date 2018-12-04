@@ -1,0 +1,82 @@
+html,body{
+    margin: 0px;
+    height: 100%;
+}
+
+header{
+    background-color: black;
+    height: 6%;
+}
+header h2{
+    margin-left: 1%;
+    color: white;
+    margin: 0px;
+}
+main{
+    display: flex;
+    height: 100%;
+}
+main> section:first-child{
+    background-color: rgb(245, 243, 243);
+    height: 100%;
+    width: 10%;
+}
+main >section:nth-child(2){
+    background-color: royalblue;
+    
+    width: 90%;
+}
+
+main> section:first-child ul{
+    list-style: none;
+   margin-left: 0.5rem;;
+    padding-left: 0px;
+    
+}
+main> section:first-child ul li{
+    margin-bottom: 15%;
+}
+main> section:first-child li{
+    margin: 0.2rem;
+    /* margin-left: 0.1rem;
+    padding: 0px; */
+}
+main> section:first-child img{
+    width: 20%;
+}
+
+#login input,h1{
+    margin: 0 3% 3% 3%;
+}
+
+#login input{
+    height: 2em;
+    width: 40em;
+    border-radius: 7px;
+}
+
+#login p{
+    margin: 0px 3%;
+}
+
+#job > input,h1,textarea,select{
+    margin: 0 3% 3% 3%;
+    
+}
+
+#job input,select{
+    height: 2em;
+    width: 40em;
+    border-radius: 7px;
+}
+
+#job p{
+    margin: 0px 3%;
+}
+
+#job textarea,select{
+    border-radius: 7px;
+}
+.invalid{
+    background-color: rgb(177, 89, 89);
+}

@@ -1,0 +1,94 @@
+body{
+  margin: auto;
+  font-family: garamond;
+}
+img{
+  height:15px;
+  width: 15px;
+}
+.container{
+  display: flex;
+  flex-flow: row;
+
+}
+a{
+  text-decoration: none;
+}
+.sidebar{
+
+  flex-grow: 1;
+  background:#e2e1ea;
+  height: 100vh;
+  display: flex;
+  flex-flow:column;
+  color: black;
+}
+
+.side{
+  color: black;
+}
+button{
+  background-color: #33cc33;
+  color: white;
+  border-radius: 9px;
+  height: 5vh;
+  width: 15vh;
+}
+.dashboard{
+  padding: 20px;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  flex-grow: 7;
+  height: 100vh;
+  //justify-content: space-between;
+}
+.dash{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.newUser, .signUp,.newjob, .login{
+  flex-grow: 7;
+  display: flex;
+  flex-flow: column;
+}
+
+.info{
+  border-radius: 5px;
+
+}
+.newjob{
+  flex-flow: column;
+}
+form{
+  justify-content: space-around;
+  align-items: baseline;
+
+}
+.header{
+  height: 20px;
+  background-color: #343148;
+  color: white;
+}
+#button1{
+  background-color: blue;
+}
+
+/* Dashboard content Edits*/
+table{
+  border-collapse: collapse;
+  width: 100vh;
+}
+td{
+  justify-content: center;
+}
+.topRow{
+  background-color: #e2e1ea;
+}
+.line{
+  visibility: visible;
+  border-top: solid 1px;
+  text-align: left;
+  color: #e2e1ea;
+}
